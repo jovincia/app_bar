@@ -22,14 +22,14 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             print("Here is the menu");
           },
-          icon: Icon(Icons.menu),
+          icon: const Icon(Icons.menu),
         ),
         actions: [
           IconButton(
             onPressed: () {
               print("Here is the account");
             },
-            icon: Icon(Icons.person),
+            icon: const Icon(Icons.person),
           ),
         ],
       ),
